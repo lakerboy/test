@@ -13,14 +13,12 @@ public class LambdaCollections {
 		myScores.add(18.6);
 		myScores.add(71.11);
 		myScores.add(22.1);
-		
-		
+			
 		for (Double score : myScores){
 			System.out.println(score);
 		}
 		
 		myScores.forEach(s -> System.out.println(s));
-		
 	}
 
 }
